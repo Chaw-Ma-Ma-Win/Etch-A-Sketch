@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://i.pinimg.com/564x/81/22/0a/81220a73237cf5119e87331d227d05df.jpg');
+  background-repeat: round;
+  font-family: 'Ubuntu', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  gap: 2rem;
+  width: 60%;
+  height: 80%;
+  display: flex;
+}
+
+.tools {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+
+.canvas {
+  width: 70%;
+}
+
+.square {
+  border-radius: 5px;
+  margin: 3px;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  border: black solid 1px;
+}
+
+span {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.color {
+  cursor: pointer;
+  background-color: gray;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 5rem;
+  width: 10rem;
+  border: none;
+  color: black;
+}
+.color:hover {
+  background-color: lightgray;
+}
+
+#color {
+  cursor: pointer;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.clearCanvas {
+  cursor: pointer;
+  background-color: slategray;
+  border-radius: 15px;
+  padding: 0.3rem;
+  height: 5rem;
+  width: 10rem;
+  font-size: 1.2rem;
+  border: none;
+  color: whitesmoke;
+}
+
+.clearCanvas:hover {
+  background-color: black;
+  color: slategray;
+}
