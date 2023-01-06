@@ -5,7 +5,7 @@ color.addEventListener('change', (e) => {
   color = e.target.value;
 });
 let size = 13;
-for (let i = 0; i < size * size - 1; i++) {
+for (let i = 0; i < size * size; i++) {
   const square = document.createElement('div');
   square.classList.toggle('square');
   canvas.appendChild(square);
